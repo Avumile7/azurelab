@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".activity_main2">
+
+    <TextView
+        android:id="@+id/weatherDisplayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        tools:text="Weekly Maximum Temperatures:\n\nMonday: 25°C\nTuesday: 29°C\nWednesday: 22°C\nThursday: 24°C\nFriday: 20°C\nSaturday: 18°C\nSunday: 16°C"/>
+
+    <TextView
+        android:id="@+id/averageTempTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="32dp"
+        tools:text="Average Max Temperature: 22.00°C"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Welcome"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>
